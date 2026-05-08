@@ -13,9 +13,9 @@ The main goal of the project is to demonstrate the use of:
 
 The application is built using:
 
-Frontend: React, 
-Backend: Node.js + Express, 
-Database: MySQL, 
+Frontend: React | 
+Backend: Node.js + Express | 
+Database: MySQL | 
 Containerization: Docker & Docker Compose
 
 ## Project Objectives
@@ -147,7 +147,5 @@ This project demonstrates the fundamentals of cloud application development usin
 It provides a simple but practical example of a full-stack containerized application with database integration and cloud deployment readiness.
 
 ## References
-
-This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
 
 The application is based on the application from the getting started tutorial at https://github.com/docker/getting-started
