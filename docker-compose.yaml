@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:3000"
+    volumes:
+      - todos:/etc/todos
+
+
+volumes:  
+  todos:
