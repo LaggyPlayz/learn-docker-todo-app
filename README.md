@@ -1,7 +1,6 @@
 # Cloud Development Final Project
 Dockerized Todo Application on AWS
-
-* Project Overview
+## Project Overview
 This project is a simple cloud-based Todo Application designed to help users manage daily tasks efficiently.
 Users can create, view, update, and delete tasks through a web interface.
 
