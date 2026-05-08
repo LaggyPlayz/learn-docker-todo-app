@@ -31,14 +31,11 @@ The project was developed to:
 ## System Architecture
 
 User Browser
-     |
-     
+     ↓
 React Frontend
-     |
-     
+     ↓
 Node.js / Express Backend API
-     |
-     
+     ↓
 MySQL Database
 
 Docker Compose is used to run all services together.
