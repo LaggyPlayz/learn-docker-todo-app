@@ -13,9 +13,9 @@ The main goal of the project is to demonstrate the use of:
 
 The application is built using:
 
-Frontend: React
-Backend: Node.js + Express
-Database: MySQL
+Frontend: React, 
+Backend: Node.js + Express, 
+Database: MySQL, 
 Containerization: Docker & Docker Compose
 
 ## Project Objectives
@@ -146,7 +146,7 @@ learn-docker-todo-app/
 This project demonstrates the fundamentals of cloud application development using Docker and AWS concepts.
 It provides a simple but practical example of a full-stack containerized application with database integration and cloud deployment readiness.
 
-*References
+## References
 
 This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
 
