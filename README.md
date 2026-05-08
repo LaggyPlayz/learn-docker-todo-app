@@ -30,13 +30,7 @@ The project was developed to:
 
 ## System Architecture
 
-User Browser
-     ↓
-React Frontend
-     ↓
-Node.js / Express Backend API
-     ↓
-MySQL Database
+User Browser → React Frontend → Node.js / Express Backend API → MySQL Database
 
 Docker Compose is used to run all services together.
 
@@ -69,15 +63,15 @@ Additional features:
 
 ## Functional Requirements Coverage
 
-| Requirement             | Status    |
-| ----------------------- | --------- |
-| User-facing interface   | Completed |
-| Backend service         | Completed |
-| Database integration    | Completed |
-| CRUD operations         | Completed |
-| Docker containerization | Completed |
-| Multi-container setup   | Completed |
-| Cloud-ready deployment  | Completed |
+| Requirement               |
+| ------------------------- |
+| ✅User-facing interface   |
+| ✅Backend service         |
+| ✅Database integration    |
+| ✅CRUD operations         |
+| ✅Docker containerization |
+| ✅Multi-container setup   |
+| ✅Cloud-ready deployment  |
 
 ## Containerization
 
