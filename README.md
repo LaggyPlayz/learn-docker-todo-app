@@ -1,4 +1,5 @@
-# Getting started
+# Cloud Development Final Project
+Dockerized Todo Application on AWS
 
 This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
 
