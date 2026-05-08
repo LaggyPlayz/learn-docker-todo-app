@@ -18,7 +18,7 @@ Backend: Node.js + Express
 Database: MySQL
 Containerization: Docker & Docker Compose
 
-* Project Objectives
+## Project Objectives
 
 The project was developed to:
 
@@ -28,7 +28,7 @@ The project was developed to:
 - Prepare the application for cloud deployment on AWS
 - Demonstrate basic cloud computing concepts such as scalability and service integration
 
-* System Architecture
+## System Architecture
 
 User Browser
      ↓
@@ -40,8 +40,7 @@ MySQL Database
 
 Docker Compose is used to run all services together.
 
-* Features
-* 
+## Features
 The application supports the following operations:
 
 - Add new tasks
@@ -56,7 +55,7 @@ Additional features:
 - Easy local setup
 - Ready for AWS deployment
 
-* Technologies Used
+## Technologies Used
 
 | Technology                     | Purpose                       |
 | ------------------------------ | ----------------------------- |
@@ -68,7 +67,7 @@ Additional features:
 | Docker Compose                 | Multi-container orchestration |
 | AWS EC2 *(planned deployment)* | Cloud hosting                 |
 
-* Functional Requirements Coverage
+## Functional Requirements Coverage
 
 | Requirement             | Status    |
 | ----------------------- | --------- |
@@ -80,7 +79,7 @@ Additional features:
 | Multi-container setup   | Completed |
 | Cloud-ready deployment  | Completed |
 
-* Containerization
+## Containerization
 
 The project uses Docker to ensure the application runs consistently across environments.
 
@@ -94,14 +93,14 @@ The containers include:
 - Frontend/Backend application container
 - MySQL database container
 
-AWS Services Used
+## AWS Services Used
 
 | AWS Service     | Purpose                 |
 | --------------- | ----------------------- |
 | Amazon EC2      | Hosting the application |
 | Security Groups | Allow public web access |
 
-* Scalability & Reliability
+## Scalability & Reliability
 
 The project follows basic cloud-native principles:
 
@@ -116,7 +115,16 @@ Maintainability
 - Separated frontend and backend logic
 - Dockerized setup simplifies deployment
 
-* Project Structure
+## API Functionality
+
+| Method | Function       |
+| ------ | -------------- |
+| GET    | Retrieve tasks |
+| POST   | Create task    |
+| PUT    | Update task    |
+| DELETE | Remove task    |
+
+## Project Structure
 
 learn-docker-todo-app/
 │
@@ -130,16 +138,7 @@ learn-docker-todo-app/
 ├── compose.yaml
 └── README.md
 
-* API Functionality
-
-| Method | Function       |
-| ------ | -------------- |
-| GET    | Retrieve tasks |
-| POST   | Create task    |
-| PUT    | Update task    |
-| DELETE | Remove task    |
-
-* Conclusion
+## Conclusion
 
 This project demonstrates the fundamentals of cloud application development using Docker and AWS concepts.
 It provides a simple but practical example of a full-stack containerized application with database integration and cloud deployment readiness.
