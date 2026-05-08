@@ -31,13 +31,13 @@ The project was developed to:
 ## System Architecture
 
 User Browser
-     ↓
+     |
      
 React Frontend
-     ↓
+     |
      
 Node.js / Express Backend API
-     ↓
+     |
      
 MySQL Database
 
